@@ -1,4 +1,6 @@
-#Highlight of this Project 
+## Highlight of this Project 
+
+
 Automated audio captioning (AAC) generates natural language descriptions of general audio content, enabling applications like media annotation and assistive technologies. This study implements an AAC system using CNN14 as an encoder and Llama as a decoder, trained on the Clotho dataset. We evaluate performance using metrics including METEOR, CIDEr, and SPIDEr-FL. Additionally, we explore enhancements via HTS and CLAP architectures. My model achieves robust results after 20,000 training steps on an RTX4090 GPU, with a user-friendly PyQt6 interface for real-time audio analysis.
 
 # Audio Caption with PyTorch
@@ -59,6 +61,7 @@ The predicted caption of [young artist.wav](assets/young_artists.wav) looks like
 
 </pre>
 ## 3 UI Display instruction
+
 After running the code of UI_Code,py, you will receive a colorful interface including blocks of audio path, symbol image, play audio or run inferences buttons, record function button and audio waves exhibition. 
 If you upload a file from your local, you can see the audio path on the left of the interface, then you can play the audio by clicking the play audio button. Aftering running the inference by clicking run model prediction button, the prediction will be shown in the model prediction block.
 In another case, if you have already recorded an audio, then click run live prediction and you will see the prediction shown in the live environment sound caption block. 
